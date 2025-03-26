@@ -35,6 +35,7 @@ global-incdirs-y += platform/include
 global-incdirs_ext-y += $(CFG_MS_TPM_20_REF)/TPMCmd/tpm/include
 global-incdirs_ext-y += $(CFG_MS_TPM_20_REF)/TPMCmd/tpm/include/prototypes
 global-incdirs_ext-y += $(CFG_MS_TPM_20_REF)/TPMCmd/Platform/include
+global-incdirs_ext-y += $(CFG_MS_TPM_20_REF)/TPMCmd/tpm/src/crypt/liboqs
 
 cflags-y += -Wno-cast-align
 cflags-y += -Wno-implicit-fallthrough
